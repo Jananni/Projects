@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>
-    var image1 = new image()
+  <script type = "text/javascript">
+    var image1 = new Image()
     image1.src = "a.png"
-    var image2 = new image()
+    var image2 = new Image()
     image2.src = "b.png"
-    var image3 = new image()
+    var image3 = new Image()
     image3.src = "c.png"
   </script>
 </head>
 <body>
   <img src = "a.png" name = "slide" width = "400" height = "400">
-  <script>
+  <script type = "text/javascript">
     var step = 1
     function slideit(){
       document.images.slide.src = eval("image"+step+".src")
